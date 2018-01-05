@@ -23,4 +23,4 @@ If it is, return the index of the largest element, otherwise return -1.
 2. Every nums[i] will be an integer in the range [0, 99].
 
 #### 解题思路
-类似求解**斐波那契数列**
+找到最大值和第二大的值，比较最大值是否大于等于次大值的两倍
