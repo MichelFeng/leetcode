@@ -3,8 +3,8 @@ package com.michel;
 public class Main {
 
     public static void main(String[] args) {
-	    Solution_746 solution = new Solution_746();
-	    int[] cost = {10,15,20};
-	    System.out.println(solution.minCostClimbingStairs(cost));
+	    Solution_9 solution = new Solution_9();
+	    int x = -1;
+	    System.out.println(solution.isPalindrome(x));
     }
 }
