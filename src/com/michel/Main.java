@@ -3,8 +3,8 @@ package com.michel;
 public class Main {
 
     public static void main(String[] args) {
-	    Solution_14 solution = new Solution_14();
-	    String[] strs = {"a", "b", "a"};
-	    System.out.println(solution.longestCommonPrefix(strs));
+	    Solution_717 solution = new Solution_717();
+	    int[] bits = {1, 1, 1, 0};
+	    System.out.println(solution.isOneBitCharacter(bits));
     }
 }
