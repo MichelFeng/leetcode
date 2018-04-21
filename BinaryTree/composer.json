@@ -1,0 +1,17 @@
+{
+  "name": "michelfeng/binary-tree",
+  "require-dev": {
+    "monolog/monolog": "^1.23"
+  },
+  "autoload": {
+    "psr-4": {
+      "LeetCode\\": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "michelfeng",
+      "email": "277241073@qq.com"
+    }
+  ]
+}
