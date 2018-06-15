@@ -1,10 +1,14 @@
 # leetcode
-### Easy
-* [746. Min Cost Climbing Stairs](doc/746_MinCostClimbingStairs.md)
-* [747. Largest Number At Least Twice of Others](doc/747_LargestNumberAtLeastTwiceOfOthers.md)
+
+* [2. Add Two Numbers](doc/2_AddTwoNumbers.md)
+* [3. Longest Substring Without Repeating Characters](doc/3_LongestSubstringWithoutRepeatingCharacters.md)
+* [7. Reverse Integer](doc/7_ReverseInteger.md)
 * [9. Palindrome Number](doc/9_PalindromeNumber.md)
 * [14. Longest Common Prefix](doc/14_LongestCommonPrefix.md)
 * [717. 1-bit and 2-bit Characters](doc/717_1BitAnd2BitCharacters.md)
+* [746. Min Cost Climbing Stairs](doc/746_MinCostClimbingStairs.md)
+* [747. Largest Number At Least Twice of Others](doc/747_LargestNumberAtLeastTwiceOfOthers.md)
+
 ### 二叉树
 * 二叉树的前序遍历
 * 二叉树的中序遍历
