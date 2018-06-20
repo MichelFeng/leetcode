@@ -4,6 +4,7 @@
 * [3. Longest Substring Without Repeating Characters](doc/3_LongestSubstringWithoutRepeatingCharacters.md)
 * [7. Reverse Integer](doc/7_ReverseInteger.md)
 * [9. Palindrome Number](doc/9_PalindromeNumber.md)
+* [13. Roman To Integer](doc/13_RomanToInteger.md)
 * [14. Longest Common Prefix](doc/14_LongestCommonPrefix.md)
 * [717. 1-bit and 2-bit Characters](doc/717_1BitAnd2BitCharacters.md)
 * [746. Min Cost Climbing Stairs](doc/746_MinCostClimbingStairs.md)
