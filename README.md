@@ -2,6 +2,7 @@
 
 * [2. Add Two Numbers](doc/2_AddTwoNumbers.md)
 * [3. Longest Substring Without Repeating Characters](doc/3_LongestSubstringWithoutRepeatingCharacters.md)
+* [6. Zigzag Conversion](doc/6_ZigzagConversion.md)
 * [7. Reverse Integer](doc/7_ReverseInteger.md)
 * [9. Palindrome Number](doc/9_PalindromeNumber.md)
 * [12. Integer To Roman](doc/12_IntegerToRoman.md)
