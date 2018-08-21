@@ -1,4 +1,5 @@
 <?php
+
 class TreeNode
 {
     private $val;
@@ -35,3 +36,41 @@ function getTree()
 
     return $node1;
 }
+
+function getPath($tree, $target)
+{
+    if (empty($tree)) {
+        return null;
+    }
+
+    $stack = [];
+    $sum = 0;
+    doGetPath($tree, $target, $stack, $sum);
+}
+
+function doGetPath($tree, $target, &$stack, &$sum)
+{
+    $sum += $tree->val;
+    array_push($stack, $tree);
+
+    if ($tree->left == null && $tree->right == null) {
+        if ($sum == $target) {
+            foreach ($stack as $item) {
+                echo $item->val.' ';
+            }
+            echo PHP_EOL;
+        }
+    }
+
+    if ($tree->left) {
+        doGetPath($tree->left, $target, $stack, $sum);
+    }
+    if ($tree->right) {
+        doGetPath($tree->right, $target, $stack, $sum);
+    }
+
+    $sum -= $tree->val;
+    array_pop($stack);
+}
+
+getPath(getTree(), 22);
