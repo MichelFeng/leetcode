@@ -24,3 +24,8 @@ class Solution(object):
                 visited.add(head)
                 head = head.next
         return False
+
+    def hasCycle(self, head):
+        """
+        快慢指针思想，判断成环
+        """
