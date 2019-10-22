@@ -23,7 +23,7 @@
 class Solution(object):
     def titleToNumber(self, s):
         """
-        26进制
+        26进制，与168题对应
         :type s: str
         :rtype: int
         """
