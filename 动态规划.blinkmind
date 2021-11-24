@@ -1,0 +1,406 @@
+{
+  "rootTopicKey": "fa3917c2-0fbb-419c-aec5-467c2ee7f8a3",
+  "editorRootTopicKey": "fa3917c2-0fbb-419c-aec5-467c2ee7f8a3",
+  "focusKey": "12eafa88-10b3-4323-bd4f-6f4fbed78cbc",
+  "extData": {},
+  "topics": [
+    {
+      "key": "5757b385-b84e-49c0-bf7f-6b6b11ad4cd1",
+      "parentKey": "1e11160b-3f9d-422e-9348-1a7ed3dc2654",
+      "subKeys": [
+        "2e04f973-6134-42f2-9717-de1a0291321a",
+        "4abf8f11-6511-4933-a16d-3842940b45e8"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "优化方式"
+        }
+      ]
+    },
+    {
+      "key": "9a743414-7ca3-4626-ae51-9273363b71b2",
+      "parentKey": "7c9a930e-98c4-4d31-a347-acec29c3c417",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "使用循环迭代的方式，而不是递归"
+        }
+      ]
+    },
+    {
+      "key": "322a3f91-a57f-4cd8-a68c-f915ed828897",
+      "parentKey": "4abf8f11-6511-4933-a16d-3842940b45e8",
+      "subKeys": [
+        "ea291f3a-0e9c-41f6-8bd6-4b895e06fae5"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "通过递归的方式处理"
+        }
+      ]
+    },
+    {
+      "key": "fa3917c2-0fbb-419c-aec5-467c2ee7f8a3",
+      "parentKey": null,
+      "subKeys": [
+        "f6d0b2ec-919f-40ff-8ff5-66157fa75bf4",
+        "23420565-54ea-43fe-bff9-8799cf5fd91b",
+        "04292c52-583c-439a-b738-f2b25572f058",
+        "77cd1992-4b89-4481-ac29-cff718ae96b3",
+        "7c9a930e-98c4-4d31-a347-acec29c3c417"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "动态规划"
+        }
+      ]
+    },
+    {
+      "key": "f6d0b2ec-919f-40ff-8ff5-66157fa75bf4",
+      "parentKey": "fa3917c2-0fbb-419c-aec5-467c2ee7f8a3",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "一般形式\n求最值问题"
+        }
+      ]
+    },
+    {
+      "key": "ea291f3a-0e9c-41f6-8bd6-4b895e06fae5",
+      "parentKey": "322a3f91-a57f-4cd8-a68c-f915ed828897",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "自顶向下"
+        }
+      ]
+    },
+    {
+      "key": "23420565-54ea-43fe-bff9-8799cf5fd91b",
+      "parentKey": "fa3917c2-0fbb-419c-aec5-467c2ee7f8a3",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "核心问题\n穷举"
+        }
+      ]
+    },
+    {
+      "key": "2e04f973-6134-42f2-9717-de1a0291321a",
+      "parentKey": "5757b385-b84e-49c0-bf7f-6b6b11ad4cd1",
+      "subKeys": [
+        "d8cc08b0-3fed-4229-a5d5-4550b6597cc5"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "DP table"
+        }
+      ]
+    },
+    {
+      "key": "d8cc08b0-3fed-4229-a5d5-4550b6597cc5",
+      "parentKey": "2e04f973-6134-42f2-9717-de1a0291321a",
+      "subKeys": [
+        "12eafa88-10b3-4323-bd4f-6f4fbed78cbc"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "通过迭代的方式处理"
+        }
+      ]
+    },
+    {
+      "key": "9083e870-6291-4f34-bd96-543bbc4abdf5",
+      "parentKey": "f9b9e172-db0a-4f97-8a07-32aa3dc8e394",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "2. 定义 dp 数组/函数的含义"
+        }
+      ]
+    },
+    {
+      "key": "4abf8f11-6511-4933-a16d-3842940b45e8",
+      "parentKey": "5757b385-b84e-49c0-bf7f-6b6b11ad4cd1",
+      "subKeys": [
+        "322a3f91-a57f-4cd8-a68c-f915ed828897"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "备忘录"
+        }
+      ]
+    },
+    {
+      "key": "1e11160b-3f9d-422e-9348-1a7ed3dc2654",
+      "parentKey": "04292c52-583c-439a-b738-f2b25572f058",
+      "subKeys": [
+        "5757b385-b84e-49c0-bf7f-6b6b11ad4cd1"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "存在\n重叠子问题"
+        }
+      ]
+    },
+    {
+      "key": "77cd1992-4b89-4481-ac29-cff718ae96b3",
+      "parentKey": "fa3917c2-0fbb-419c-aec5-467c2ee7f8a3",
+      "subKeys": [
+        "42231317-e944-4132-b878-8ea15274f0ab",
+        "daad0a4f-fc94-4ee5-a73d-04f8a169ab14"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "题目"
+        }
+      ]
+    },
+    {
+      "key": "f9b9e172-db0a-4f97-8a07-32aa3dc8e394",
+      "parentKey": "8fe37bc9-ca2f-47cd-bc82-02f8be710309",
+      "subKeys": [
+        "6bf3644f-ccd5-4001-84d1-4c3e0369526a",
+        "9083e870-6291-4f34-bd96-543bbc4abdf5",
+        "8ccaee8e-9adc-4091-b1db-42af3daf9f82",
+        "7b7c8654-2f73-4d7d-bd98-90d5d3f5c605"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "思考框架"
+        }
+      ]
+    },
+    {
+      "key": "8fe37bc9-ca2f-47cd-bc82-02f8be710309",
+      "parentKey": "04292c52-583c-439a-b738-f2b25572f058",
+      "subKeys": [
+        "f9b9e172-db0a-4f97-8a07-32aa3dc8e394"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "* 正确的\n状态转移方程"
+        },
+        {
+          "type": "DESC",
+          "data": ""
+        }
+      ]
+    },
+    {
+      "key": "daad0a4f-fc94-4ee5-a73d-04f8a169ab14",
+      "parentKey": "77cd1992-4b89-4481-ac29-cff718ae96b3",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "凑零钱"
+        }
+      ]
+    },
+    {
+      "key": "4964f55e-7ffd-4889-97f4-40343d1e35df",
+      "parentKey": "04292c52-583c-439a-b738-f2b25572f058",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "寻找\n最优子结构"
+        }
+      ]
+    },
+    {
+      "key": "8ccaee8e-9adc-4091-b1db-42af3daf9f82",
+      "parentKey": "f9b9e172-db0a-4f97-8a07-32aa3dc8e394",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "3. 明确选择"
+        }
+      ]
+    },
+    {
+      "key": "04292c52-583c-439a-b738-f2b25572f058",
+      "parentKey": "fa3917c2-0fbb-419c-aec5-467c2ee7f8a3",
+      "subKeys": [
+        "1e11160b-3f9d-422e-9348-1a7ed3dc2654",
+        "4964f55e-7ffd-4889-97f4-40343d1e35df",
+        "8fe37bc9-ca2f-47cd-bc82-02f8be710309"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "三要素"
+        }
+      ]
+    },
+    {
+      "key": "12eafa88-10b3-4323-bd4f-6f4fbed78cbc",
+      "parentKey": "d8cc08b0-3fed-4229-a5d5-4550b6597cc5",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "自底向上"
+        }
+      ]
+    },
+    {
+      "key": "42231317-e944-4132-b878-8ea15274f0ab",
+      "parentKey": "77cd1992-4b89-4481-ac29-cff718ae96b3",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "斐波那契数列"
+        }
+      ]
+    },
+    {
+      "key": "7c9a930e-98c4-4d31-a347-acec29c3c417",
+      "parentKey": "fa3917c2-0fbb-419c-aec5-467c2ee7f8a3",
+      "subKeys": [
+        "9a743414-7ca3-4626-ae51-9273363b71b2"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "通过「自底向上」的方式处理"
+        }
+      ]
+    },
+    {
+      "key": "6bf3644f-ccd5-4001-84d1-4c3e0369526a",
+      "parentKey": "f9b9e172-db0a-4f97-8a07-32aa3dc8e394",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "1. 明确状态"
+        }
+      ]
+    },
+    {
+      "key": "7b7c8654-2f73-4d7d-bd98-90d5d3f5c605",
+      "parentKey": "f9b9e172-db0a-4f97-8a07-32aa3dc8e394",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "4. 明确 base case"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 2,
+    "theme": {
+      "name": "default",
+      "randomColor": true,
+      "background": "rgb(57,60,65)",
+      "highlightColor": "#50C9CE",
+      "marginH": 60,
+      "marginV": 20,
+      "contentStyle": {
+        "lineHeight": "1.5",
+        "fontSize": "16px"
+      },
+      "linkStyle": {
+        "lineRadius": 5,
+        "lineType": "curve",
+        "lineWidth": "3px"
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "fontSize": "36px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "fontSize": "24px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "normalTopic": {
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      }
+    }
+  },
+  "formatVersion": null
+}
