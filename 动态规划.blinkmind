@@ -1,8 +1,12 @@
 {
   "rootTopicKey": "fa3917c2-0fbb-419c-aec5-467c2ee7f8a3",
   "editorRootTopicKey": "fa3917c2-0fbb-419c-aec5-467c2ee7f8a3",
-  "focusKey": "12eafa88-10b3-4323-bd4f-6f4fbed78cbc",
-  "extData": {},
+  "focusKey": "daad0a4f-fc94-4ee5-a73d-04f8a169ab14",
+  "extData": {
+    "TOPIC_REFERENCE": {
+      "reference": {}
+    }
+  },
   "topics": [
     {
       "key": "5757b385-b84e-49c0-bf7f-6b6b11ad4cd1",
@@ -17,19 +21,6 @@
         {
           "type": "CONTENT",
           "data": "优化方式"
-        }
-      ]
-    },
-    {
-      "key": "9a743414-7ca3-4626-ae51-9273363b71b2",
-      "parentKey": "7c9a930e-98c4-4d31-a347-acec29c3c417",
-      "subKeys": [],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "使用循环迭代的方式，而不是递归"
         }
       ]
     },
@@ -55,8 +46,7 @@
         "f6d0b2ec-919f-40ff-8ff5-66157fa75bf4",
         "23420565-54ea-43fe-bff9-8799cf5fd91b",
         "04292c52-583c-439a-b738-f2b25572f058",
-        "77cd1992-4b89-4481-ac29-cff718ae96b3",
-        "7c9a930e-98c4-4d31-a347-acec29c3c417"
+        "77cd1992-4b89-4481-ac29-cff718ae96b3"
       ],
       "collapse": false,
       "style": null,
@@ -165,6 +155,19 @@
       ]
     },
     {
+      "key": "f1ad2bff-3741-4a18-9901-0987716be149",
+      "parentKey": "77cd1992-4b89-4481-ac29-cff718ae96b3",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "1137. 第 N 个泰波那契数"
+        }
+      ]
+    },
+    {
       "key": "1e11160b-3f9d-422e-9348-1a7ed3dc2654",
       "parentKey": "04292c52-583c-439a-b738-f2b25572f058",
       "subKeys": [
@@ -184,7 +187,8 @@
       "parentKey": "fa3917c2-0fbb-419c-aec5-467c2ee7f8a3",
       "subKeys": [
         "42231317-e944-4132-b878-8ea15274f0ab",
-        "daad0a4f-fc94-4ee5-a73d-04f8a169ab14"
+        "daad0a4f-fc94-4ee5-a73d-04f8a169ab14",
+        "f1ad2bff-3741-4a18-9901-0987716be149"
       ],
       "collapse": false,
       "style": null,
@@ -224,7 +228,7 @@
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "* 正确的\n状态转移方程"
+          "data": "* 正确的\n状态转移方程\n（核心问题）"
         },
         {
           "type": "DESC",
@@ -241,14 +245,16 @@
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "凑零钱"
+          "data": "322. 零钱兑换"
         }
       ]
     },
     {
       "key": "4964f55e-7ffd-4889-97f4-40343d1e35df",
       "parentKey": "04292c52-583c-439a-b738-f2b25572f058",
-      "subKeys": [],
+      "subKeys": [
+        "5ab97508-f763-48c8-b0ce-622f806b3268"
+      ],
       "collapse": false,
       "style": null,
       "blocks": [
@@ -302,6 +308,19 @@
       ]
     },
     {
+      "key": "5ab97508-f763-48c8-b0ce-622f806b3268",
+      "parentKey": "4964f55e-7ffd-4889-97f4-40343d1e35df",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "满足条件\n子问题间必须相互独立"
+        }
+      ]
+    },
+    {
       "key": "42231317-e944-4132-b878-8ea15274f0ab",
       "parentKey": "77cd1992-4b89-4481-ac29-cff718ae96b3",
       "subKeys": [],
@@ -315,30 +334,30 @@
       ]
     },
     {
-      "key": "7c9a930e-98c4-4d31-a347-acec29c3c417",
-      "parentKey": "fa3917c2-0fbb-419c-aec5-467c2ee7f8a3",
+      "key": "6bf3644f-ccd5-4001-84d1-4c3e0369526a",
+      "parentKey": "f9b9e172-db0a-4f97-8a07-32aa3dc8e394",
       "subKeys": [
-        "9a743414-7ca3-4626-ae51-9273363b71b2"
+        "cf3b375b-e339-4ff0-9714-21b2dd522327"
       ],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "通过「自底向上」的方式处理"
+          "data": "1. 明确状态"
         }
       ]
     },
     {
-      "key": "6bf3644f-ccd5-4001-84d1-4c3e0369526a",
-      "parentKey": "f9b9e172-db0a-4f97-8a07-32aa3dc8e394",
+      "key": "cf3b375b-e339-4ff0-9714-21b2dd522327",
+      "parentKey": "6bf3644f-ccd5-4001-84d1-4c3e0369526a",
       "subKeys": [],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "1. 明确状态"
+          "data": "原问题和子问题中变化的变量"
         }
       ]
     },
