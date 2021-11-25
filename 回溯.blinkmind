@@ -1,0 +1,275 @@
+{
+  "rootTopicKey": "8d98c8a4-74c0-492b-9c24-cfe26c49ef22",
+  "editorRootTopicKey": "8d98c8a4-74c0-492b-9c24-cfe26c49ef22",
+  "focusKey": "cb78cf13-d5e3-4824-9977-7570bb7bade4",
+  "extData": {
+    "TOPIC_REFERENCE": {
+      "reference": {}
+    }
+  },
+  "topics": [
+    {
+      "key": "cb78cf13-d5e3-4824-9977-7570bb7bade4",
+      "parentKey": "519b6704-3989-466e-885d-fd4917138cf6",
+      "subKeys": [
+        "11cf9844-a178-4efb-9e03-f69adc837fd0"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "2. 选择列表"
+        }
+      ]
+    },
+    {
+      "key": "bebd8166-c4b4-4bd2-b860-f9b3e1c36328",
+      "parentKey": "8d98c8a4-74c0-492b-9c24-cfe26c49ef22",
+      "subKeys": [
+        "dae693a9-1421-4836-89cf-cbd3c05cc3a6",
+        "1f3585ab-150f-4adb-9ccb-30d381f98124"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "框架"
+        }
+      ]
+    },
+    {
+      "key": "519b6704-3989-466e-885d-fd4917138cf6",
+      "parentKey": "8d98c8a4-74c0-492b-9c24-cfe26c49ef22",
+      "subKeys": [
+        "10a938ef-d375-43bd-bb08-55bec179a3f7",
+        "cb78cf13-d5e3-4824-9977-7570bb7bade4",
+        "5dcb6232-0098-4585-b7cf-5bcdababb961"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "3个问题"
+        }
+      ]
+    },
+    {
+      "key": "78822c57-3b06-43ac-9ca4-3e98ea21db08",
+      "parentKey": "5dcb6232-0098-4585-b7cf-5bcdababb961",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "遍历树的底层"
+        }
+      ]
+    },
+    {
+      "key": "dae693a9-1421-4836-89cf-cbd3c05cc3a6",
+      "parentKey": "bebd8166-c4b4-4bd2-b860-f9b3e1c36328",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "result = []\ndef backtrack(路径， 选择列表):\n       if 满足结束条件:\n           result.add(路径)\n           return\n       for 选择 in 选择列表:\n          做选择\n          backtrack(路径，选择列表)\n          撤销选择"
+        }
+      ]
+    },
+    {
+      "key": "1f3585ab-150f-4adb-9ccb-30d381f98124",
+      "parentKey": "bebd8166-c4b4-4bd2-b860-f9b3e1c36328",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "核心\nfor循环中递归\n递归之前做选择\n递归之后撤销选择"
+        }
+      ]
+    },
+    {
+      "key": "5dcb6232-0098-4585-b7cf-5bcdababb961",
+      "parentKey": "519b6704-3989-466e-885d-fd4917138cf6",
+      "subKeys": [
+        "78822c57-3b06-43ac-9ca4-3e98ea21db08"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "结束条件"
+        }
+      ]
+    },
+    {
+      "key": "155115ba-6dca-4a3c-a122-72d445e6a497",
+      "parentKey": "8d98c8a4-74c0-492b-9c24-cfe26c49ef22",
+      "subKeys": [
+        "6411b2e2-7711-454b-880a-96cf36bef8df",
+        "37d57373-4c56-46ab-a747-7fb97634e3fe"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "题目"
+        }
+      ]
+    },
+    {
+      "key": "6411b2e2-7711-454b-880a-96cf36bef8df",
+      "parentKey": "155115ba-6dca-4a3c-a122-72d445e6a497",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "46. 全排列"
+        }
+      ]
+    },
+    {
+      "key": "06641305-9efd-4a95-8508-029fc5c0f00f",
+      "parentKey": "8d98c8a4-74c0-492b-9c24-cfe26c49ef22",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "决策树的遍历过程"
+        }
+      ]
+    },
+    {
+      "key": "8d98c8a4-74c0-492b-9c24-cfe26c49ef22",
+      "parentKey": null,
+      "subKeys": [
+        "06641305-9efd-4a95-8508-029fc5c0f00f",
+        "519b6704-3989-466e-885d-fd4917138cf6",
+        "bebd8166-c4b4-4bd2-b860-f9b3e1c36328",
+        "155115ba-6dca-4a3c-a122-72d445e6a497"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "回溯"
+        }
+      ]
+    },
+    {
+      "key": "37d57373-4c56-46ab-a747-7fb97634e3fe",
+      "parentKey": "155115ba-6dca-4a3c-a122-72d445e6a497",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "51. N 皇后"
+        }
+      ]
+    },
+    {
+      "key": "07fa4967-5fc7-4225-afc8-b9e96dc0656b",
+      "parentKey": "10a938ef-d375-43bd-bb08-55bec179a3f7",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "记录已经做过的选择"
+        }
+      ]
+    },
+    {
+      "key": "11cf9844-a178-4efb-9e03-f69adc837fd0",
+      "parentKey": "cb78cf13-d5e3-4824-9977-7570bb7bade4",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "当前可以做出的选择"
+        }
+      ]
+    },
+    {
+      "key": "10a938ef-d375-43bd-bb08-55bec179a3f7",
+      "parentKey": "519b6704-3989-466e-885d-fd4917138cf6",
+      "subKeys": [
+        "07fa4967-5fc7-4225-afc8-b9e96dc0656b"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "1. 路径"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 2,
+    "theme": {
+      "name": "default",
+      "randomColor": true,
+      "background": "rgb(57,60,65)",
+      "highlightColor": "#50C9CE",
+      "marginH": 60,
+      "marginV": 20,
+      "contentStyle": {
+        "lineHeight": "1.5",
+        "fontSize": "16px"
+      },
+      "linkStyle": {
+        "lineRadius": 5,
+        "lineType": "curve",
+        "lineWidth": "3px"
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "fontSize": "36px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "fontSize": "24px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "normalTopic": {
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      }
+    }
+  },
+  "formatVersion": null
+}

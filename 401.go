@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	// fmt.Println(trans(0))
 	fmt.Println(readBinaryWatch(1))
-	fmt.Println(readBinaryWatch(9))
+	fmt.Println(readBinaryWatch(8))
 }
 
 /*
@@ -16,7 +16,9 @@ func main() {
 */
 func readBinaryWatch(turnedOn int) []string {
 	res := make([]string, 0)
-
+	if turnedOn >= 9 {
+		return res
+	}
 	board := make([]byte, 10)
 	var backtrack func(board []byte, track int)
 	backtrack = func(board []byte, track int) {
