@@ -14,6 +14,7 @@ func main() {
 3. 结束条件：board 中1个个数==turnedOn
 
 */
+// FIXME: NOT WORK
 func readBinaryWatch(turnedOn int) []string {
 	res := make([]string, 0)
 	if turnedOn >= 9 {

@@ -1,0 +1,262 @@
+{
+  "rootTopicKey": "dfc5b133-5c01-4f7a-bcf2-805067dba794",
+  "editorRootTopicKey": "dfc5b133-5c01-4f7a-bcf2-805067dba794",
+  "focusKey": "b3429dbf-d12d-47b1-ae65-561ed5b544fa",
+  "extData": {
+    "TOPIC_REFERENCE": {
+      "reference": {}
+    }
+  },
+  "topics": [
+    {
+      "key": "1217bef2-42c2-4198-b1b5-118da0b754b0",
+      "parentKey": "dfc5b133-5c01-4f7a-bcf2-805067dba794",
+      "subKeys": [
+        "c97e568b-fe54-46cf-a1f0-803499fad45b",
+        "6a9a86ea-87a5-4a33-8adb-792548d8b48a"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "框架"
+        }
+      ]
+    },
+    {
+      "key": "b3429dbf-d12d-47b1-ae65-561ed5b544fa",
+      "parentKey": "23726f8c-f9db-4717-b6c7-eb61e02a4f66",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "int left_bound(int[] nums, int target) {\n    if (nums.length == 0)\n         return -1;\n     int left = 0;\n     int right = nums.length; // 注意\n     while (left < right) { // 注意  左闭右开区间\n        int mid = (left + right) / 2;\n        if (nums[mid] == target) {\n            right = mid;\n        } else if (nums[mid] < target) {\n            left = mid + 1;\n        } else if (nums[mid] > target) {\n            right = mid; // 注意\n       }\n   }\n    return left;\n}"
+        }
+      ]
+    },
+    {
+      "key": "c2b96ca1-8baf-400c-b35e-701a0dee1f5d",
+      "parentKey": "b2af5dc9-d345-4276-988b-3ecc117cc1f3",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "int right_bound(int[] nums, int target) { \n   if (nums.length == 0) \n        return -1;\n   int left = 0, right = nums.length;\n   while (left < right) {    // 左闭右开区间\n        int mid = (left + right) / 2;\n        if (nums[mid] == target) {\n            left = mid + 1; // 注意，向右收缩\n        } else if (nums[mid] < target) {\n            left = mid + 1;\n        } else if (nums[mid] > target) {\n           right = mid; \n       }\n   }\n   return left - 1; // 注意\n}"
+        }
+      ]
+    },
+    {
+      "key": "0e79d531-86cc-4472-b91a-809cc6750fba",
+      "parentKey": "dfc5b133-5c01-4f7a-bcf2-805067dba794",
+      "subKeys": [
+        "191e983e-d797-4a96-9333-4f8a6bc12a5c"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "分析技巧"
+        }
+      ]
+    },
+    {
+      "key": "7233e0bb-ee5b-4226-8a0a-30cd6066524c",
+      "parentKey": "1f1ce16f-a6ee-469a-b587-2e9a3a51e53d",
+      "subKeys": [
+        "822661d7-9c2a-4577-b69a-0cd2acb0058b"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "寻找一个数"
+        }
+      ]
+    },
+    {
+      "key": "dfc5b133-5c01-4f7a-bcf2-805067dba794",
+      "parentKey": null,
+      "subKeys": [
+        "1f1ce16f-a6ee-469a-b587-2e9a3a51e53d",
+        "1217bef2-42c2-4198-b1b5-118da0b754b0",
+        "0e79d531-86cc-4472-b91a-809cc6750fba"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "二分查找"
+        }
+      ]
+    },
+    {
+      "key": "136a0d8d-7725-4ecb-a6f1-124ef5d46bf6",
+      "parentKey": "6a9a86ea-87a5-4a33-8adb-792548d8b48a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "防止溢出"
+        }
+      ]
+    },
+    {
+      "key": "23726f8c-f9db-4717-b6c7-eb61e02a4f66",
+      "parentKey": "1f1ce16f-a6ee-469a-b587-2e9a3a51e53d",
+      "subKeys": [
+        "b3429dbf-d12d-47b1-ae65-561ed5b544fa"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "寻找左侧边界"
+        }
+      ]
+    },
+    {
+      "key": "1f1ce16f-a6ee-469a-b587-2e9a3a51e53d",
+      "parentKey": "dfc5b133-5c01-4f7a-bcf2-805067dba794",
+      "subKeys": [
+        "7233e0bb-ee5b-4226-8a0a-30cd6066524c",
+        "23726f8c-f9db-4717-b6c7-eb61e02a4f66",
+        "b2af5dc9-d345-4276-988b-3ecc117cc1f3"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "常见场景"
+        }
+      ]
+    },
+    {
+      "key": "c97e568b-fe54-46cf-a1f0-803499fad45b",
+      "parentKey": "1217bef2-42c2-4198-b1b5-118da0b754b0",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "int binarySearch(int[] nums, int target) {\n int left = 0, right = ...;\n while(...) {\n    int mid = left + (right - left) / 2;\n    if (nums[mid] == target) {\n          ...\n    } else if (nums[mid] < target) { \n          left = ...\n   } else if (nums[mid] > target) { \n          right = ...\n   } \n }\nreturn ...;\n}"
+        }
+      ]
+    },
+    {
+      "key": "b2af5dc9-d345-4276-988b-3ecc117cc1f3",
+      "parentKey": "1f1ce16f-a6ee-469a-b587-2e9a3a51e53d",
+      "subKeys": [
+        "c2b96ca1-8baf-400c-b35e-701a0dee1f5d"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "寻找右侧边界"
+        }
+      ]
+    },
+    {
+      "key": "822661d7-9c2a-4577-b69a-0cd2acb0058b",
+      "parentKey": "7233e0bb-ee5b-4226-8a0a-30cd6066524c",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "int binarySearch(int[] nums, int target) {\n    int left = 0;\n    int right = nums.length - 1; // 注意\n    while(left <= right) { // 左闭右闭区间\n         int mid = left + (right - left) / 2;\n         if(nums[mid] == target)\n              return mid;\n         else if (nums[mid] < target)\n              left = mid + 1; // 注意 \n         else if (nums[mid] > target)\n            right = mid - 1; // 注意 \n      }\n     return -1;\n}"
+        }
+      ]
+    },
+    {
+      "key": "6a9a86ea-87a5-4a33-8adb-792548d8b48a",
+      "parentKey": "1217bef2-42c2-4198-b1b5-118da0b754b0",
+      "subKeys": [
+        "136a0d8d-7725-4ecb-a6f1-124ef5d46bf6"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "mid = left + (right-left)/2"
+        }
+      ]
+    },
+    {
+      "key": "191e983e-d797-4a96-9333-4f8a6bc12a5c",
+      "parentKey": "0e79d531-86cc-4472-b91a-809cc6750fba",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "不要出现else\n把所有情况写清楚"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 2,
+    "theme": {
+      "name": "default",
+      "randomColor": true,
+      "background": "rgb(57,60,65)",
+      "highlightColor": "#50C9CE",
+      "marginH": 60,
+      "marginV": 20,
+      "contentStyle": {
+        "lineHeight": "1.5",
+        "fontSize": "16px"
+      },
+      "linkStyle": {
+        "lineRadius": 5,
+        "lineType": "curve",
+        "lineWidth": "3px"
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "fontSize": "36px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "fontSize": "24px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "normalTopic": {
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      }
+    }
+  },
+  "formatVersion": "0.0"
+}
