@@ -1,0 +1,184 @@
+{
+  "rootTopicKey": "35b63b32-676d-4f8d-962e-2e470b166764",
+  "editorRootTopicKey": "35b63b32-676d-4f8d-962e-2e470b166764",
+  "focusKey": "e6040047-bebf-4054-8824-a741c6e05431",
+  "extData": {},
+  "topics": [
+    {
+      "key": "dbf7e2b7-e216-4bbd-b44a-bb1872dc322b",
+      "parentKey": "35b63b32-676d-4f8d-962e-2e470b166764",
+      "subKeys": [
+        "86f7cb4e-2cbb-492f-802d-1dd0cccb8e55"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "原理"
+        }
+      ]
+    },
+    {
+      "key": "8a7e300f-e456-4087-823a-c7d68c5ceacb",
+      "parentKey": "fd16eb0a-a551-4b6e-989d-9158495cb429",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "void slidingWindow(string s, string t) {\n    unordered_map<char, int> need, window;\n    for (char c : t) need[c]++;\n    int left = 0, right = 0; \n    int valid = 0;\n    while(right < s.size()) {\n        // c 是将移入窗口的字符\n        char c = s[right];\n        // 右移窗口\n        right++;\n\n        // 进行窗口内数据的一系列更新\n       .......\n\n       // debug\n       printf(\"window: [%d, %d)\\n\", left, right);\n\n       // 判断左侧窗口是否要收缩\n       while( window need shrink) {\n            // d 是将移出窗口的字符\n            char d = s[left];\n            // 左移窗口\n            left++;\n\n            // 进行窗口内数据的一系列更新\n            ..............\n        }\n    }\n}"
+        }
+      ]
+    },
+    {
+      "key": "86f7cb4e-2cbb-492f-802d-1dd0cccb8e55",
+      "parentKey": "dbf7e2b7-e216-4bbd-b44a-bb1872dc322b",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "双指针"
+        }
+      ]
+    },
+    {
+      "key": "35b63b32-676d-4f8d-962e-2e470b166764",
+      "parentKey": null,
+      "subKeys": [
+        "fd16eb0a-a551-4b6e-989d-9158495cb429",
+        "cf8e6073-21cf-48a5-91fe-094e2a6312ae",
+        "dbf7e2b7-e216-4bbd-b44a-bb1872dc322b"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "滑动窗口"
+        }
+      ]
+    },
+    {
+      "key": "cf8e6073-21cf-48a5-91fe-094e2a6312ae",
+      "parentKey": "35b63b32-676d-4f8d-962e-2e470b166764",
+      "subKeys": [
+        "787630db-8c3b-4173-97d3-9540943175ff",
+        "e6040047-bebf-4054-8824-a741c6e05431"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "题目"
+        }
+      ]
+    },
+    {
+      "key": "f444ae2f-d651-4b75-ac63-ac3210efae6b",
+      "parentKey": "fd16eb0a-a551-4b6e-989d-9158495cb429",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "left, right := 0, 0\nwhile (right < s.size()) {\n    // 增大窗口\n    window.add(s[right])\n    right++\n   \n    while(window needs shrink) {\n        // 缩小窗口\n        window.remove(s[left])\n        left++\n    }\n}"
+        }
+      ]
+    },
+    {
+      "key": "e6040047-bebf-4054-8824-a741c6e05431",
+      "parentKey": "cf8e6073-21cf-48a5-91fe-094e2a6312ae",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "567. 字符串排列"
+        }
+      ]
+    },
+    {
+      "key": "fd16eb0a-a551-4b6e-989d-9158495cb429",
+      "parentKey": "35b63b32-676d-4f8d-962e-2e470b166764",
+      "subKeys": [
+        "f444ae2f-d651-4b75-ac63-ac3210efae6b",
+        "8a7e300f-e456-4087-823a-c7d68c5ceacb"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "框架"
+        }
+      ]
+    },
+    {
+      "key": "787630db-8c3b-4173-97d3-9540943175ff",
+      "parentKey": "cf8e6073-21cf-48a5-91fe-094e2a6312ae",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "76. 最小覆盖子串"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 2,
+    "theme": {
+      "name": "default",
+      "randomColor": true,
+      "background": "rgb(57,60,65)",
+      "highlightColor": "#50C9CE",
+      "marginH": 60,
+      "marginV": 20,
+      "contentStyle": {
+        "lineHeight": "1.5",
+        "fontSize": "16px"
+      },
+      "linkStyle": {
+        "lineRadius": 5,
+        "lineType": "curve",
+        "lineWidth": "3px"
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "fontSize": "36px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "fontSize": "24px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "normalTopic": {
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      }
+    }
+  },
+  "formatVersion": null
+}
