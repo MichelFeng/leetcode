@@ -1,0 +1,170 @@
+{
+  "rootTopicKey": "0cf95536-cac5-4649-ab33-54297216353d",
+  "editorRootTopicKey": "0cf95536-cac5-4649-ab33-54297216353d",
+  "focusKey": "28ab27e2-84ab-4299-a52c-53151d780693",
+  "extData": {},
+  "topics": [
+    {
+      "key": "0cf95536-cac5-4649-ab33-54297216353d",
+      "parentKey": null,
+      "subKeys": [
+        "ecf5a834-85a7-4b6e-91a9-8a37f8dd715a",
+        "5dd7d7ed-95a4-41cc-ba72-d4c68bf7da27",
+        "69e04dbc-b38a-4393-9b81-1f087564785b",
+        "6127709c-e253-4c77-9703-e7c521069ac0"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "BFS算法"
+        }
+      ]
+    },
+    {
+      "key": "ecf5a834-85a7-4b6e-91a9-8a37f8dd715a",
+      "parentKey": "0cf95536-cac5-4649-ab33-54297216353d",
+      "subKeys": [
+        "27af8aed-7e25-479d-a51b-ec51760253c5"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "与DFS的区别"
+        }
+      ]
+    },
+    {
+      "key": "27af8aed-7e25-479d-a51b-ec51760253c5",
+      "parentKey": "ecf5a834-85a7-4b6e-91a9-8a37f8dd715a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "BFS找到的路径一定是最短的，但是空间复杂度比DFS大很多"
+        }
+      ]
+    },
+    {
+      "key": "5dd7d7ed-95a4-41cc-ba72-d4c68bf7da27",
+      "parentKey": "0cf95536-cac5-4649-ab33-54297216353d",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "本质\n在一幅图中找到从start到target的最近距离"
+        }
+      ]
+    },
+    {
+      "key": "69e04dbc-b38a-4393-9b81-1f087564785b",
+      "parentKey": "0cf95536-cac5-4649-ab33-54297216353d",
+      "subKeys": [
+        "7c521790-83fc-445c-90da-7f81114ab4a9"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "框架"
+        }
+      ]
+    },
+    {
+      "key": "7c521790-83fc-445c-90da-7f81114ab4a9",
+      "parentKey": "69e04dbc-b38a-4393-9b81-1f087564785b",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "// 计算从起点 start 到终点 target 的最近距离\nint BFS(Node start, Node target) {\n    Queue<Node> q; // 核心数据结构 \n    Set<Node> visited; // 避免走回头路\n    \n    q.offer(start); // 将起点加入队列 \n    visited.add(start);\n    int step = 0; // 记录扩散的步数\n   \n    while (q not empty) {\n        int sz = q.size();\n        /* 将当前队列中的所有节点向四周扩散 */\n        for (int i = 0; i < sz; i++) {\n            Node cur = q.poll();\n            /* 划重点:这里判断是否到达终点 */\n           if (cur is target)\n                return step;\n           /* 将 cur 的相邻节点加入队列 */ \n           for (Node x : cur.adj())\n                if (x not in visited) { \n                    q.offer(x);\n                    visited.add(x);\n               }\n           }\n           /* 划重点:更新步数在这里 */\n           step++; \n       }\n}"
+        }
+      ]
+    },
+    {
+      "key": "6127709c-e253-4c77-9703-e7c521069ac0",
+      "parentKey": "0cf95536-cac5-4649-ab33-54297216353d",
+      "subKeys": [
+        "28ab27e2-84ab-4299-a52c-53151d780693"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "题目"
+        }
+      ]
+    },
+    {
+      "key": "28ab27e2-84ab-4299-a52c-53151d780693",
+      "parentKey": "6127709c-e253-4c77-9703-e7c521069ac0",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "111. 二叉树的最小高度"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 2,
+    "theme": {
+      "name": "default",
+      "randomColor": true,
+      "background": "rgb(57,60,65)",
+      "highlightColor": "#50C9CE",
+      "marginH": 60,
+      "marginV": 20,
+      "contentStyle": {
+        "lineHeight": "1.5",
+        "fontSize": "16px"
+      },
+      "linkStyle": {
+        "lineRadius": 5,
+        "lineType": "curve",
+        "lineWidth": "3px"
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "fontSize": "36px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "fontSize": "24px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "normalTopic": {
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      }
+    }
+  },
+  "formatVersion": null
+}
