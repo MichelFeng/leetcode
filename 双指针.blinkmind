@@ -1,0 +1,241 @@
+{
+  "rootTopicKey": "a3a161fa-d47c-424e-b98b-f74ed8180f20",
+  "editorRootTopicKey": "a3a161fa-d47c-424e-b98b-f74ed8180f20",
+  "focusKey": "8198f72d-214e-4c1c-b85e-d8ef27d1eaf5",
+  "extData": {},
+  "topics": [
+    {
+      "key": "7ec0e56a-4ba6-4ed3-9ed5-6395e9ffdcee",
+      "parentKey": "171c7559-0e0a-403b-a232-6f6d495fd945",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "判断链表是否有环"
+        }
+      ]
+    },
+    {
+      "key": "f11c5cb7-d162-453f-bf99-0872c13eb604",
+      "parentKey": "9335e541-58f6-4429-b798-d03cfeb77ced",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "反转数组"
+        }
+      ]
+    },
+    {
+      "key": "dc2b5a50-7661-443a-b6a9-b33269c6f41b",
+      "parentKey": "9335e541-58f6-4429-b798-d03cfeb77ced",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "二分查找"
+        }
+      ]
+    },
+    {
+      "key": "9335e541-58f6-4429-b798-d03cfeb77ced",
+      "parentKey": "b172bd9a-3e1d-4a6b-8e84-068aefb0ae73",
+      "subKeys": [
+        "dc2b5a50-7661-443a-b6a9-b33269c6f41b",
+        "81efaf77-aec2-481c-917d-a8704c4f860a",
+        "f11c5cb7-d162-453f-bf99-0872c13eb604",
+        "8198f72d-214e-4c1c-b85e-d8ef27d1eaf5"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "解决数组问题"
+        }
+      ]
+    },
+    {
+      "key": "9fe5326a-1c31-4d59-9684-53a47655a040",
+      "parentKey": "a3a161fa-d47c-424e-b98b-f74ed8180f20",
+      "subKeys": [
+        "171c7559-0e0a-403b-a232-6f6d495fd945"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "快慢指针"
+        }
+      ]
+    },
+    {
+      "key": "f945ef2b-dc3f-4a5c-868d-44c3220d3927",
+      "parentKey": "171c7559-0e0a-403b-a232-6f6d495fd945",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "寻找链表的倒数第K个元素"
+        }
+      ]
+    },
+    {
+      "key": "33102918-fc11-4b47-8c70-ad63a03c5285",
+      "parentKey": "171c7559-0e0a-403b-a232-6f6d495fd945",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "已知链表有环，返回环的起始位置"
+        }
+      ]
+    },
+    {
+      "key": "895d6037-1aed-48ec-a9a1-3ae72e7da69b",
+      "parentKey": "171c7559-0e0a-403b-a232-6f6d495fd945",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "寻找链表的中点"
+        }
+      ]
+    },
+    {
+      "key": "8198f72d-214e-4c1c-b85e-d8ef27d1eaf5",
+      "parentKey": "9335e541-58f6-4429-b798-d03cfeb77ced",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "滑动窗口算法"
+        }
+      ]
+    },
+    {
+      "key": "171c7559-0e0a-403b-a232-6f6d495fd945",
+      "parentKey": "9fe5326a-1c31-4d59-9684-53a47655a040",
+      "subKeys": [
+        "7ec0e56a-4ba6-4ed3-9ed5-6395e9ffdcee",
+        "33102918-fc11-4b47-8c70-ad63a03c5285",
+        "895d6037-1aed-48ec-a9a1-3ae72e7da69b",
+        "f945ef2b-dc3f-4a5c-868d-44c3220d3927"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "用于解决链表问题"
+        }
+      ]
+    },
+    {
+      "key": "a3a161fa-d47c-424e-b98b-f74ed8180f20",
+      "parentKey": null,
+      "subKeys": [
+        "9fe5326a-1c31-4d59-9684-53a47655a040",
+        "b172bd9a-3e1d-4a6b-8e84-068aefb0ae73"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "双指针"
+        }
+      ]
+    },
+    {
+      "key": "b172bd9a-3e1d-4a6b-8e84-068aefb0ae73",
+      "parentKey": "a3a161fa-d47c-424e-b98b-f74ed8180f20",
+      "subKeys": [
+        "9335e541-58f6-4429-b798-d03cfeb77ced"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "左右指针"
+        }
+      ]
+    },
+    {
+      "key": "81efaf77-aec2-481c-917d-a8704c4f860a",
+      "parentKey": "9335e541-58f6-4429-b798-d03cfeb77ced",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "两数之和"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 2,
+    "theme": {
+      "name": "default",
+      "randomColor": true,
+      "background": "rgb(57,60,65)",
+      "highlightColor": "#50C9CE",
+      "marginH": 60,
+      "marginV": 20,
+      "contentStyle": {
+        "lineHeight": "1.5",
+        "fontSize": "16px"
+      },
+      "linkStyle": {
+        "lineRadius": 5,
+        "lineType": "curve",
+        "lineWidth": "3px"
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "fontSize": "36px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "fontSize": "24px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "normalTopic": {
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      }
+    }
+  },
+  "formatVersion": null
+}

@@ -1,24 +1,21 @@
 {
   "rootTopicKey": "0cf95536-cac5-4649-ab33-54297216353d",
   "editorRootTopicKey": "0cf95536-cac5-4649-ab33-54297216353d",
-  "focusKey": "28ab27e2-84ab-4299-a52c-53151d780693",
+  "focusKey": "28936f4b-4a54-4bc3-9f15-a025b6df7956",
   "extData": {},
   "topics": [
     {
-      "key": "0cf95536-cac5-4649-ab33-54297216353d",
-      "parentKey": null,
+      "key": "69e04dbc-b38a-4393-9b81-1f087564785b",
+      "parentKey": "0cf95536-cac5-4649-ab33-54297216353d",
       "subKeys": [
-        "ecf5a834-85a7-4b6e-91a9-8a37f8dd715a",
-        "5dd7d7ed-95a4-41cc-ba72-d4c68bf7da27",
-        "69e04dbc-b38a-4393-9b81-1f087564785b",
-        "6127709c-e253-4c77-9703-e7c521069ac0"
+        "7c521790-83fc-445c-90da-7f81114ab4a9"
       ],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "BFS算法"
+          "data": "框架"
         }
       ]
     },
@@ -38,43 +35,18 @@
       ]
     },
     {
-      "key": "27af8aed-7e25-479d-a51b-ec51760253c5",
-      "parentKey": "ecf5a834-85a7-4b6e-91a9-8a37f8dd715a",
-      "subKeys": [],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "BFS找到的路径一定是最短的，但是空间复杂度比DFS大很多"
-        }
-      ]
-    },
-    {
-      "key": "5dd7d7ed-95a4-41cc-ba72-d4c68bf7da27",
-      "parentKey": "0cf95536-cac5-4649-ab33-54297216353d",
-      "subKeys": [],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "本质\n在一幅图中找到从start到target的最近距离"
-        }
-      ]
-    },
-    {
-      "key": "69e04dbc-b38a-4393-9b81-1f087564785b",
+      "key": "6127709c-e253-4c77-9703-e7c521069ac0",
       "parentKey": "0cf95536-cac5-4649-ab33-54297216353d",
       "subKeys": [
-        "7c521790-83fc-445c-90da-7f81114ab4a9"
+        "28ab27e2-84ab-4299-a52c-53151d780693",
+        "66f8fecd-11fb-42ff-878a-9bfc7ad528aa"
       ],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "框架"
+          "data": "题目"
         }
       ]
     },
@@ -92,17 +64,43 @@
       ]
     },
     {
-      "key": "6127709c-e253-4c77-9703-e7c521069ac0",
+      "key": "5dd7d7ed-95a4-41cc-ba72-d4c68bf7da27",
+      "parentKey": "0cf95536-cac5-4649-ab33-54297216353d",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "本质\n在一幅图中找到从start到target的最近距离"
+        }
+      ]
+    },
+    {
+      "key": "07d84675-47c9-4f95-a2a0-e2da9102b701",
       "parentKey": "0cf95536-cac5-4649-ab33-54297216353d",
       "subKeys": [
-        "28ab27e2-84ab-4299-a52c-53151d780693"
+        "28936f4b-4a54-4bc3-9f15-a025b6df7956"
       ],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "题目"
+          "data": "双向BFS优化"
+        }
+      ]
+    },
+    {
+      "key": "28936f4b-4a54-4bc3-9f15-a025b6df7956",
+      "parentKey": "07d84675-47c9-4f95-a2a0-e2da9102b701",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "从起点和终点同时开始，\n当两边有交集时停止"
         }
       ]
     },
@@ -116,6 +114,51 @@
         {
           "type": "CONTENT",
           "data": "111. 二叉树的最小高度"
+        }
+      ]
+    },
+    {
+      "key": "66f8fecd-11fb-42ff-878a-9bfc7ad528aa",
+      "parentKey": "6127709c-e253-4c77-9703-e7c521069ac0",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "752. 解开密码锁的最少次数"
+        }
+      ]
+    },
+    {
+      "key": "27af8aed-7e25-479d-a51b-ec51760253c5",
+      "parentKey": "ecf5a834-85a7-4b6e-91a9-8a37f8dd715a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "BFS找到的路径一定是最短的，但是空间复杂度比DFS大很多"
+        }
+      ]
+    },
+    {
+      "key": "0cf95536-cac5-4649-ab33-54297216353d",
+      "parentKey": null,
+      "subKeys": [
+        "ecf5a834-85a7-4b6e-91a9-8a37f8dd715a",
+        "5dd7d7ed-95a4-41cc-ba72-d4c68bf7da27",
+        "69e04dbc-b38a-4393-9b81-1f087564785b",
+        "6127709c-e253-4c77-9703-e7c521069ac0",
+        "07d84675-47c9-4f95-a2a0-e2da9102b701"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "BFS算法"
         }
       ]
     }
@@ -166,5 +209,5 @@
       }
     }
   },
-  "formatVersion": null
+  "formatVersion": "0.0"
 }
